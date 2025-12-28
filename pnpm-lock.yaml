@@ -9,6 +9,7 @@ overrides:
   glob@>=10.2.0 <10.5.0: '>=10.5.0'
   js-yaml@>=4.0.0 <4.1.1: '>=4.1.1'
   tmp@<=0.2.3: '>=0.2.4'
+  cookie@<0.7.0: '>=0.7.0'
 
 importers:
 
@@ -800,9 +801,9 @@ packages:
     resolution: {integrity: sha512-/rFeCpNJQbhSZjGVwO9RFV3xPqbnERS8MmIQzCtD/zl6gpJuV/bMLuN92oG3F7d8oDEHHRrujSXNUr8fpjntKw==}
     engines: {node: '>=18'}
 
-  cookie@0.6.0:
-    resolution: {integrity: sha512-U71cyTamuh1CRNCfpGY6to28lxvNwPG4Guz/EVjgf3Jmzv0vlDp1atT9eS5dDjMYHucpHbWns6Lwf3BKz6svdw==}
-    engines: {node: '>= 0.6'}
+  cookie@1.1.1:
+    resolution: {integrity: sha512-ei8Aos7ja0weRpFzJnEA9UHJ/7XQmqglbRwnf2ATjcB9Wq874VKH9kfjjirM6UhU2/E5fFYadylyhFldcqSidQ==}
+    engines: {node: '>=18'}
 
   cosmiconfig@9.0.0:
     resolution: {integrity: sha512-itvL5h8RETACmOTFc4UfIyB2RfEHi71Ax6E/PivVxq9NseKbOWpeyHEOIbmAw1rs8Ak0VursQNww7lf7YtUwzg==}
@@ -1907,7 +1908,7 @@ snapshots:
       '@sveltejs/vite-plugin-svelte': 6.2.1(svelte@5.46.1)(vite@7.3.0(jiti@2.6.1)(lightningcss@1.30.2))
       '@types/cookie': 0.6.0
       acorn: 8.15.0
-      cookie: 0.6.0
+      cookie: 1.1.1
       devalue: 5.6.1
       esm-env: 1.2.2
       kleur: 4.1.5
@@ -2157,7 +2158,7 @@ snapshots:
 
   commander@13.1.0: {}
 
-  cookie@0.6.0: {}
+  cookie@1.1.1: {}
 
   cosmiconfig@9.0.0(typescript@5.9.3):
     dependencies:
