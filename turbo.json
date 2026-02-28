@@ -21,6 +21,10 @@
       "dependsOn": ["^build"],
       "outputs": []
     },
+    "check": {
+      "dependsOn": ["build"],
+      "outputs": []
+    },
     "type-check": {
       "dependsOn": ["^build"],
       "inputs": ["tsconfig.check.json"],
