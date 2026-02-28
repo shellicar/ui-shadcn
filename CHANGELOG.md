@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.0.4] - 2026-02-28
+
+### Fixed
+
+- Added all runtime dependencies as peerDependencies (bits-ui, clsx, formsnap, sveltekit-superforms, tailwind-merge, tailwind-variants, @lucide/svelte)
+
 ## [1.0.3] - 2026-02-28
 
 ### Fixed
@@ -44,6 +50,7 @@
 
 Initial release.
 
+[1.0.4]: https://github.com/shellicar/ui-shadcn/releases/tag/1.0.4
 [1.0.3]: https://github.com/shellicar/ui-shadcn/releases/tag/1.0.3
 [1.0.2]: https://github.com/shellicar/ui-shadcn/releases/tag/1.0.2
 [1.0.1]: https://github.com/shellicar/ui-shadcn/releases/tag/1.0.1
