@@ -9,7 +9,7 @@
     "type-check": "turbo run type-check",
     "lint": "biome lint",
     "format": "biome format",
-    "check": "biome check",
+    "check": "turbo run check",
     "ci": "biome ci --diagnostic-level=error",
     "ci:fix": "biome check --diagnostic-level=error --fix",
     "list-mismatches": "syncpack list-mismatches",
