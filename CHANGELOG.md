@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.5] - 2026-03-01
+
+### Fixed
+
+- Regenerated all shadcn-svelte components for Svelte 5 compatibility (const → let for `$bindable()` props)
+- Added svelte-check to CI pipeline to catch component compilation errors
+
 ## [1.0.4] - 2026-02-28
 
 ### Fixed
@@ -50,6 +57,7 @@
 
 Initial release.
 
+[1.0.5]: https://github.com/shellicar/ui-shadcn/releases/tag/1.0.5
 [1.0.4]: https://github.com/shellicar/ui-shadcn/releases/tag/1.0.4
 [1.0.3]: https://github.com/shellicar/ui-shadcn/releases/tag/1.0.3
 [1.0.2]: https://github.com/shellicar/ui-shadcn/releases/tag/1.0.2
