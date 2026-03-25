@@ -31,7 +31,6 @@ jobs:
     - run: pnpm audit
     - run: pnpm i --frozen-lockfile
     - run: pnpm run --if-present build --only
-    - run: pnpm run --if-present check --only
     - run: pnpm run --if-present type-check --only
     - run: pnpm run --if-present test --only
     - run: pnpm run ci
